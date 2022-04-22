@@ -52,7 +52,18 @@ git show <id_commit>
 git diff
 ```
 ## Checkout
-
+- Xóa commit,thay đổi của các file commit sẽ ở Index
+```
+git reset --soft <id_commit>
+```
+- Xóa commit,thay đổi của các file commit sẽ ở Working tree
+```
+git reset --mixed <id_commit>
+```
+- Xóa commit và xóa thay đổi của các file commit
+```
+git reset --hard <id_commit>
+```
 ## Branch
 - Hiển thị danh sách của branch ở local
 ```
