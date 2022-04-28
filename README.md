@@ -12,7 +12,7 @@ git config --global user.name <user_name>
 ```
 - Thiết lập mail
 ```
-git config --global user.name <mail>
+git config --global user.email <mail>
 ```
 - Hiển thị danh sách thiết lập
 ```
