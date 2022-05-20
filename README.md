@@ -1,7 +1,7 @@
 <!-- Git Catalog -->
 * [Thiết lập Git](#thiết-lập-git)
 * [Commit](#commit)
-* [Checkout](#checkout)
+* [Reset](#reset)
 * [Branch](#branch)
 * [GitHub](#github)
 <!-- Git Catalog -->
@@ -51,7 +51,7 @@ git show <id_commit>
 ```
 git diff
 ```
-## Checkout
+## Reset
 - Xóa commit,thay đổi của các file commit sẽ ở Index
 ```
 git reset --soft <id_commit>
